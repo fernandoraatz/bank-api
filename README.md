@@ -27,19 +27,14 @@ GET /balance?account_id={id}
 POST /event
 
 ```json
-// deposit
 { "type": "deposit", "destination": "100", "amount": 10 }
-
-// withdraw
 { "type": "withdraw", "origin": "100", "amount": 5 }
-
-// transfer
 { "type": "transfer", "origin": "100", "destination": "300", "amount": 15 }
 ```
 
 ---
 
-## ▶️ Running locally
+## ▶ Running locally
 
 ### Prerequisites
 - Node 18+
